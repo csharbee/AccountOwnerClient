@@ -1,12 +1,10 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Navbar } from 'react-bootstrap';
 
 const layout = (props) => {
     return (
         <Container>
-            <Row>
-                This is the place for the navigation component.
-            </Row>
+            <Navbar></Navbar>
             <main>
                 {props.children}
             </main>
